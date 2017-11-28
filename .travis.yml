@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode9.1
+xcode_project: PasscodeLock.xcodeproj
+xcode_scheme: PasscodeLock
+script:
+- set -o pipefail && xcodebuild test -project PasscodeLock.xcodeproj -scheme "PasscodeLock" -sdk iphonesimulator11.1 -destination "platform=iOS Simulator,OS=11.1,name=iPhone X" ONLY_ACTIVE_ARCH=NO | xcpretty

@@ -1,0 +1,33 @@
+/* 
+  PasscodeLock.strings
+  PasscodeLock
+
+  Created by Yanko Dimitrov on 8/28/15.
+  Copyright (c) 2015 Yanko Dimitrov. All rights reserved.
+*/
+
+/* Enter Passcode State */
+"PasscodeLockEnterTitle" = "비밀번호 입력";
+"PasscodeLockEnterDescription" = "비밀번호를 입력하세요.";
+
+/* Set Passcode State */
+"PasscodeLockSetTitle" = "비밀번호 설정";
+"PasscodeLockSetDescription" = "비밀번호를 입력하세요.";
+
+/* Confirm Passcode State */
+"PasscodeLockConfirmTitle" = "비밀번호 확인";
+"PasscodeLockConfirmDescription" = "비밀번호를 다시 입력하세요.";
+
+/* Change Passcode State */
+"PasscodeLockChangeTitle" = "비밀번호 변경";
+"PasscodeLockChangeDescription" = "기존 Wrapsody 비밀번호를 입력하세요.";
+
+/* Passcode Mismatch State */
+"PasscodeLockMismatchTitle" = "비밀번호 입력";
+"PasscodeLockMismatchDescription" = "비밀번호가 일치하지 않습니다.";
+
+/* Touch ID Reason */
+"PasscodeLockBioAuthReason" = "Wrapsody 잠금해제";
+
+/* Touch ID Fallback Button */
+"PasscodeLockBioAuthButton" = "비밀번호 입력";
